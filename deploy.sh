@@ -19,10 +19,10 @@ echo 'www.guilhermemir.com' > ./dist/CNAME
 # git checkout -B main
 git add dist
 git commit -m 'deploy'
+git subtree push --prefix dist origin gh-pages
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:guilhermemir/guilhermemir.github.io.git main
-git subtree push --prefix dist origin gh-pages
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
