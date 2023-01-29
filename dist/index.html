@@ -1,17 +1,123 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Guilherme Mir</title>
-    <script type="module" crossorigin src="/assets/index-5cd27a76.js"></script>
-    <link rel="stylesheet" href="/assets/index-7ab04a21.css">
+    <title>Guilherme Mir | Frontend Developer </title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/images/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
+    <script type="module" crossorigin src="/assets/index-c658acea.js"></script>
+    <link rel="stylesheet" href="/assets/index-864594b2.css">
   </head>
-  <body>
-    <div class="p-10 text-white bg-gray-400">
-      <h1 class="text-4xl font-bold text-center">Guilherme Mir</h1>
-    </div>
+  <body class="container max-w-screen-lg mx-auto font-roboto">
+    <header class="bg-gray-200 rounded-b-md">
+      <!-- Top Nav -->
+      <div class="px-8 py-4">
+        <nav class="flex items-center justify-between">
+          <div>
+            <a href="http://guilhermemir.com" class="mb-4">
+              <img src="/images/guilherme-mir-logo.png" alt="Guilherme Mir - Logo" title="guilhermemir.com" class="w-20">
+            </a>
+          </div>
+          <ul class="flex gap-2">
+            <li>
+              <a href="https://linkedin.com/in/guilhermemir" target="_blank">
+                <img src="/images/linkedin.svg" alt="LinkedIn" title="LinkedIn" class="w-8 h-8">
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/guilhermemir" target="_blank">
+                <img src="/images/github.svg" alt="GitHub" title="GitHub" class="w-8 h-8">
+              </a>
+            </li>
+            <li>
+              <a href="mailto:guilherme.mir@gmail.com">
+                <img src="/images/email.svg" alt="E-mail" title="guilherme.mir@gmail.com" class="w-8 h-8">
+              </a>
+            </li>
+            <li>
+              <a href="https://bit.ly/cv-guilherme-mir" target="_blank">
+                <img src="/images/resume.svg" alt="Resume" title="Resume" class="w-8 h-8">
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="py-10">
+      <!-- Presentation Card -->
+      <div class="mx-4 text-center">
+        <h1 class="mb-4 text-4xl font-bold">Guilherme Mir</h1>
+        <h2 class="mb-4 font-bold">Web Developer focused on Frontend technologies.</h2>
+        <div class="flex flex-col items-center mb-4">
+          <img src="/images/profile-picture.png" alt="Profile Picture" title="Guilherme Mir" class="w-60">
+          <div class="flex items-center justify-center gap-1">
+            <img src="/images/brazil-flag.svg" alt="Brasil Flag" title="Brasil" class="w-5">
+            <span>Curitiba / Brasil</span>
+          </div>
+        </div>
+      </div>
+      <!-- About Section -->
+      <div class="mb-8 flex flex-col items-center py-10 bg-[#5789bc] text-white rounded-md mx-4 shadow-2xl">
+        <h2 class="mb-4 text-xl font-bold text-center">Hi, I'm Guilherme Mir. Nice to met you.</h2>
+        <p class="mx-8 mb-8 text-justify">Before starting my recent journey as a Dev, I studied Cinema and Audio-visual (Faculty of Arts of Paraná/UNESPAR) and worked with video editing and motion design, providing services to several production companies and agencies.</p>
+        <!-- Skills, Languages and Tools Card -->
+        <div class="flex flex-col items-center w-2/3 p-4 mb-8 text-black bg-white rounded-md shadow-2xl">
+          <!-- Skills -->
+          <div class="mb-8">
+            <h3 class="mb-2 font-bold text-center text-sky-800">How I like to work?</h3>
+            <p class="mb-2 font-medium text-justify">I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+            <p class="mb-2 font-medium text-justify">I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+            <p class="font-medium text-justify">I genuinely care about people, and love helping fellow developers work on their craft.</p>
+          </div>
+          <!-- Languages -->
+          <div class="mb-8">
+            <h3 class="mb-2 font-bold text-center text-sky-800">Languages I speak:</h3>
+            <p class="font-medium">HTML, CSS, JavaScript, Git</p>
+          </div>
+          <!-- Tools -->
+          <div>
+            <h3 class="mb-2 font-bold text-center text-sky-800">Dev Tools:</h3>
+            <ul class="font-medium text-center">
+              <li>GitHub</li>
+              <li>Tailwind</li>
+              <li>Visual Studio Code</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Projects -->
+        <h2 class="mb-4 text-xl font-bold">My Recent Work</h2>
+        <div class="px-8">
+          <a href="https://odmaster.com.br/" target="_blank">
+            <img src="/images/odmaster.png" alt="ODMaster" title="ODMaster" class="rounded-md shadow-2xl">
+          </a>
+          <p class="mt-2 text-sm text-center">This project is being developed by the company Dei Priori&copy;, using Ruby on Rails and Tailwind.</p>
+        </div>
+      </div>
+      <!-- Contact Info -->
+      <div class="mb-8 text-center">
+        <h2 class="mb-4 text-xl font-bold">Interested in getting in touch with me?</h2>
+        <p class="mb-2 font-medium">I'm always open to discussing job opportunities or partnerships.</p>
+        <p class="font-medium">Feel free to reach me out via <a href="mailto:guilherme.mir@gmail.com" class="underline text-sky-800" title="guilherme.mir@gmail.com">guilherme.mir@gmail.com</a></p>
+      </div>
+    </main>
+    <footer class="flex flex-col items-center py-10 bg-gray-200 rounded-t-md">
+      <a href="http://guilhermemir.com" class="mb-4">
+        <img src="/images/guilherme-mir-logo.png" alt="Guilherme Mir - Logo" title="guilhermemir.com" class="w-20">
+      </a>
+      <h2 class="mb-2">
+        Living, learning and leveling up one day at a time.
+      </h2>
+      <div id="current-year" class="text-xs">
+        Developed by Guilherme Mir · 
+      </div>
+    </footer>
     
   </body>
 </html>
